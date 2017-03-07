@@ -1,0 +1,198 @@
+@font-face {
+	font-family: HelveNueThinNormal;
+	src: url(/fonts/HelveticaNeueLTW1G-Th.eot?iefix) format("eot"), url(/fonts/HelveticaNeueLTW1G-Th.woff) format("woff"), url(/fonts/HelveticaNeueLTW1G-Th.ttf) format("truetype"), url(/fonts/HelveticaNeueLTW1G-Th.svg#webfontJR0GaG5Z) format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	margin: 0px; padding: 0px; min-height: 100%;
+}
+.clickable {
+	cursor: pointer;
+}
+.shown {
+	opacity: 1;
+}
+.bottom-layer {
+	z-index: 0;
+}
+.layer1 {
+	z-index: 1;
+}
+.layer2 {
+	z-index: 12;
+}
+.layer3 {
+	z-index: 123;
+}
+.layer4 {
+	z-index: 1234;
+}
+.layer5 {
+	z-index: 12345;
+}
+.top-layer {
+	z-index: 123456789;
+}
+.space-layer {
+	z-index: 1234567899;
+}
+.fully-animated * {
+	transition:0.5s cubic-bezier(0.165, 0.84, 0.44, 1); -webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1); -moz-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1); -o-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.animated-color {
+	transition:background-color 0.5s cubic-bezier(0.165, 0.84, 0.44, 1); -webkit-transition: background-color 0.5s cubic-bezier(0.165, 0.84, 0.44, 1); -moz-transition: background-color 0.5s cubic-bezier(0.165, 0.84, 0.44, 1); -o-transition: background-color 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.animated {
+	
+}
+.animated-opacity {
+	
+}
+.animate-slowly {
+	
+}
+.zero-opacity {
+	opacity: 0;
+}
+.slow-animated-opacity {
+	transition:opacity 1.5s cubic-bezier(0.165, 0.84, 0.44, 1); -webkit-transition: opacity 1.5s cubic-bezier(0.165, 0.84, 0.44, 1); -moz-transition: opacity 1.5s cubic-bezier(0.165, 0.84, 0.44, 1); -o-transition: opacity 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.bg-div {
+	background-position: center; left: 0px; top: 0px; width: 100%; height: 100%; position: fixed; opacity: 0; background-image: url("/images/backgrounds/1.jpg"); background-repeat: no-repeat; background-size: cover;
+}
+.bg-div.shown {
+	opacity: 0.4;
+}
+.item-settings-menu {
+	margin: 2px; width: 25px; height: 25px; display: inline-block; cursor: pointer;
+}
+img.item-settings-menu:hover {
+	
+}
+.magic-circle-controls {
+	position: absolute; opacity: 0; background-color: black;
+}
+.magic-circle-controls.shown {
+	opacity: 1;
+}
+#bread-crumbs {
+	left: 40px; top: 40px; color: white; font-family: HelveNueThinNormal; font-size: 30px; display: inline-block; position: fixed;
+}
+#bread-crumbs img:not(.label-logo) {
+	width: 60px; height: 60px; margin-top: -16px; vertical-align: middle;
+}
+#bread-crumbs img.label-logo {
+	margin-right: 5px; vertical-align: top;
+}
+#bread-crumbs span {
+	color: rgb(102, 102, 102); font-size: 30px; display: inline-block;
+}
+#bread-crumbs span.im-text {
+	
+}
+.module-back span.im-text {
+	
+}
+#bread-crumbs .bread-crumbs-path {
+	display: inline-block;
+}
+#bread-crumbs .back-btn {
+	display: inline-block;
+}
+#bread-crumbs span.beta-icon {
+	color: white; font-size: 10px;
+}
+#bread-crumbs a {
+	color: white; font-size: 12px; text-decoration: none;
+}
+#blocking-div {
+	background-position: center; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; background-image: url("/images/x_loader.gif"); background-repeat: no-repeat; background-size: 50px 50px; background-color: black;
+}
+.terms-link {
+	color: rgb(153, 153, 153); padding-left: 10px; font-family: Arial; font-size: 14px; text-decoration: none;
+}
+.call-me {
+	color: rgb(153, 153, 153); padding-left: 10px; font-family: Arial; font-size: 14px; text-decoration: none;
+}
+.tooltip-circle {
+	width: 100px; height: 100px; position: absolute; z-index: 99999999; cursor: pointer; background-image: url("/images/ui_icons/tooltip_circle.png"); background-repeat: no-repeat;
+}
+.tooltip-wrapper.top-left {
+	background-image: url("/images/ui_icons/tooltip_top_left.png");
+}
+.tooltip-wrapper.bottom-left {
+	background-image: url("/images/ui_icons/tooltip_bottom_left.png");
+}
+.tooltip-wrapper.top-right {
+	background-image: url("/images/ui_icons/tooltip_top_right.png");
+}
+.tooltip-wrapper.bottom-right {
+	background-image: url("/images/ui_icons/tooltip_bottom_right.png");
+}
+.tooltip-wrapper {
+	width: 300px; height: 250px; position: absolute; z-index: 99999999; background-repeat: no-repeat;
+}
+.tooltip-holder {
+	margin: 30px; text-align: left; font-family: Arial;
+}
+.tooltip-category {
+	color: red; padding-top: 10px; font-size: 16px; font-weight: bold;
+}
+.tooltip-title {
+	color: rgb(51, 51, 51); font-size: 22px;
+}
+.tooltip-content {
+	color: rgb(153, 153, 153); padding-top: 5px; font-size: 12px;
+}
+.tooltip-btn {
+	padding: 5px 10px; border: 1px solid rgb(153, 153, 153); border-image: none; color: rgb(153, 153, 153); font-size: 12px; margin-top: 20px; display: inline-block; position: absolute; cursor: pointer;
+}
+.tooltip-btn.tooltip-next {
+	border: 1px solid rgb(51, 204, 102); border-image: none; right: 34px; bottom: 44px; color: white; background-color: rgb(51, 204, 102);
+}
+.tooltip-btn.tooltip-hide {
+	left: 31px; bottom: 44px;
+}
+.regular-mode .pro-feature {
+	display: none !important;
+}
+iframe.stripe_checkout_app {
+	z-index: 2147483647 !important;
+}
+.sr-modal-backdrop {
+	z-index: 1234567891 !important;
+}
+.sr-confirm-amount {
+	border: currentColor !important; border-image: none !important;
+}
+.fa.fa-shopping-cart {
+	border: currentColor !important; border-image: none !important;
+}
+.sr-basket-widget-inner {
+	border: currentColor !important; border-image: none !important;
+}
+.t-t {
+	
+}
+#translation-box {
+	width: 44px; text-align: left; color: white; line-height: normal; padding-top: 5px; padding-bottom: 5px; padding-left: 10px; font-family: Arial; font-size: 12px; margin-top: 10px; margin-right: 11px; float: left; display: inline-block; position: relative; z-index: 1234; background-color: rgb(102, 102, 102);
+}
+#translation-box img.caret {
+	width: 12px; height: 12px; margin-top: 2px; margin-left: 4px;
+}
+#translation-box ul#lang-dropdown {
+	margin: 0px 11px 0px 0px; padding: 0px; left: 0px; text-align: left; line-height: normal; font-size: 12px; display: none; list-style-type: none; position: absolute; -ms-overflow-y: scroll; max-height: 170px; background-color: rgb(102, 102, 102);
+}
+ul#lang-dropdown li:hover {
+	background-color: rgb(153, 153, 153);
+}
+ul#lang-dropdown li {
+	padding: 5px 2px 5px 12px; width: 40px; font-size: 10px;
+}
+@media screen and (max-height:600px)
+{
+#user-gravatar {
+	display: none;
+}
+}

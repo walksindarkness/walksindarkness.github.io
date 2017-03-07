@@ -1,0 +1,66 @@
+.master .style-71afe2b8-jfbjyfog .Body {
+	line-height: 1.4em; font-size: 12px; margin-right: 20px; margin-bottom: 10px; margin-left: 20px; max-width: 650px;
+}
+.master .style-71afe2b8-jfbjyfog .Subtitle {
+	margin: 15px 20px; color: rgb(110, 110, 110); letter-spacing: 0.1em; font-family: Arial; font-size: 15px; max-width: 650px;
+}
+.master .style-71afe2b8-jfbjyfog .Body h2 {
+	margin: 15px 20px; color: rgb(110, 110, 110); letter-spacing: 0.1em; font-family: Arial; font-size: 15px; max-width: 650px;
+}
+.master .style-71afe2b8-jfbjyfog .quote-holder {
+	margin-top: 35px; margin-bottom: 45px;
+}
+.master .style-71afe2b8-jfbjyfog .subtitle-wrapper {
+	max-width: 1180px;
+}
+.master .style-71afe2b8-jfbjyfog .Title {
+	color: rgb(0, 0, 0); letter-spacing: 0.05em; font-family: Montserrat; font-size: 22px; margin-top: 30px; margin-right: 20px; margin-left: 20px; max-width: 650px;
+}
+.master .style-71afe2b8-jfbjyfog .Body h1 {
+	color: rgb(0, 0, 0); letter-spacing: 0.05em; font-family: Montserrat; font-size: 22px; margin-top: 30px; margin-right: 20px; margin-left: 20px; max-width: 650px;
+}
+.master .style-71afe2b8-jfbjyfog .link-wrapper {
+	max-width: 1058px;
+}
+.master .style-71afe2b8-jfbjyfog .Quote {
+	font-family: "Times New Roman"; font-size: 19px; font-style: italic; margin-right: 50px; margin-left: 50px;
+}
+.master .style-71afe2b8-jfbjyfog .quote-author {
+	color: rgb(124, 124, 124); font-family: "Times New Roman"; font-size: 19px; font-style: italic; margin-top: 10px; margin-right: 50px; margin-left: 50px;
+}
+.master .style-71afe2b8-jfbjyfog .title-wrapper {
+	max-width: 1180px;
+}
+.master .style-71afe2b8-jfbjyfog .item-links span {
+	border-width: 1px; padding: 10px 15px; color: rgb(0, 0, 0); letter-spacing: 0.1em; font-family: Arial; font-size: 13px; margin-top: 20px; margin-bottom: 20px; margin-left: 50px; background-color: rgba(66, 117, 83, 0);
+}
+.master .style-71afe2b8-jfbjyfog .body-wrapper {
+	max-width: 1032px;
+}
+.style-71afe2b8-jfbjyfog.master.container > #children {
+	background-color: rgb(255, 255, 255);
+}
+.master.container.website-style :not(.custom).master.item-box :not(.custom).preview-title {
+	line-height: 1.1em; letter-spacing: 0.1em; font-family: "Playfair Display";
+}
+.master.container.website-style :not(.custom).master.item-box :not(.custom).blocks-preview-title {
+	line-height: 1.1em; letter-spacing: 0.1em; font-family: "Playfair Display";
+}
+.master.container.website-style :not(.custom).master.item-box :not(.custom).preview-element.Link {
+	border-width: 2px; border-radius: 30px; letter-spacing: 0.5em; font-family: "Playfair Display";
+}
+.master.container.website-style :not(.custom).master.item-box :not(.custom).preview-subtitle {
+	line-height: 1.5em; letter-spacing: 0em; font-family: "Playfair Display";
+}
+.master.container.website-style :not(.custom).master.item-box :not(.custom).blocks-preview-subtitle {
+	line-height: 1.5em; letter-spacing: 0em; font-family: "Playfair Display";
+}
+.master.container.website-style :not(.custom).master.item-box :not(.custom).preview-body {
+	letter-spacing: 0em; font-family: Permanent Marker;
+}
+.master.container.website-style :not(.custom).master.item-box :not(.custom).blocks-preview-body {
+	letter-spacing: 0em; font-family: Permanent Marker;
+}
+body {
+	background-color: rgb(251, 251, 251);
+}
