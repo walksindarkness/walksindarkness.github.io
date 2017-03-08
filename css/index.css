@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #0000FB;
-	background-color: #73A293;
+	color: #000016;
+	background-color: #6A396D;
 }
 
 #muse_css_mq
@@ -17,8 +17,7 @@
 	border-width: 0px;
 	border-color: #000000;
 	background-color: transparent;
-	padding-top: 62px;
-	padding-bottom: 810px;
+	padding-bottom: 372px;
 	width: 100%;
 	max-width: 960px;
 	margin-left: auto;

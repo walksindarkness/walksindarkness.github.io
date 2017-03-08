@@ -1,7 +1,7 @@
-<manifest alg="2" build="2015.1.2.344" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.Overmountaintactical.com" resolutions="1x" timestamp="1488941109212">
+<manifest alg="2" build="2015.1.2.344" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="www.Overmountaintactical.com" resolutions="1x" timestamp="1488941271780">
   <folder name="css">
     <file name="site_global.css" crc="131700929"/>
-    <file name="index.css" crc="4218659475" ref="index"/>
+    <file name="index.css" crc="376060269" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="207176553" ref="index"/>
@@ -13,5 +13,5 @@
   <folder name="images">
     <file name="overmountain tactical.jpg" crc="326331456" ref="index"/>
   </folder>
-  <file name="index.html" crc="110671755" seo="true" mt="1488941104365" redirect="true"/>
+  <file name="index.html" crc="10960205" seo="true" mt="1488941236294" redirect="true"/>
 </manifest>
